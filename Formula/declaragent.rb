@@ -14,28 +14,28 @@
 class Declaragent < Formula
   desc "Declarative, git-versioned AI agent platform"
   homepage "https://declaragent.dev"
-  version "0.1.7"
+  version "0.1.8"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
       url "https://github.com/declaragent/declaragent/releases/download/v#{version}/declaragent-darwin-arm64.tar.gz"
-      sha256 "bb5010aab6fa8d092cd1e55f305f79c6abf433be4ea7e78fc4840953d4afab4d"
+      sha256 "ed8ddcb134af2465507dfb635d28b04ac1959285aa9cb17ae8211bd44bb452d6"
     end
     on_intel do
       url "https://github.com/declaragent/declaragent/releases/download/v#{version}/declaragent-darwin-x64.tar.gz"
-      sha256 "9d1947c79c65efe08fb33c6519832ff65a27d6157a7584ab604496533f0cff74"
+      sha256 "c90a5d38906daee69273d1b78b5e40189e00295b9a23d25a29927dc5763607a1"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/declaragent/declaragent/releases/download/v#{version}/declaragent-linux-arm64.tar.gz"
-      sha256 "2b2e2f8dc022417bd82e6f1e6e81896c2f798f10d8875474fbf7434c63f82765"
+      sha256 "fba30428559261381084ec0f09663c27a7b6f0c57cf4015c4b8fbc7e52424771"
     end
     on_intel do
       url "https://github.com/declaragent/declaragent/releases/download/v#{version}/declaragent-linux-x64.tar.gz"
-      sha256 "db76718d57392373cd754e47048a9deee8cafb4251ca6a59e76100d64f287387"
+      sha256 "7d8f967f9355a0ba3cc267f6d98e40a63134be3bc111467cc3471464afe53085"
     end
   end
 
